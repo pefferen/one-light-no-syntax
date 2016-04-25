@@ -31,18 +31,21 @@
 @syntax-color-removed:  hsl(  0, 100%, 54%);
 
 // For language entity colors
-@syntax-color-variable:   @hue-5;
-@syntax-color-constant:   @hue-6;
-@syntax-color-property:   @syntax-fg;
-@syntax-color-value:      @syntax-fg;
-@syntax-color-function:   @hue-2;
-@syntax-color-method:     @hue-2;
-@syntax-color-class:      @hue-6-2;
-@syntax-color-keyword:    @hue-3;
-@syntax-color-tag:        @hue-5;
-@syntax-color-attribute:  @hue-6;
-@syntax-color-import:     @hue-3;
-@syntax-color-snippet:    @hue-4;
+@syntax-color-variable:   @syntax-text-color;
+@syntax-color-constant:   @syntax-text-color;
+@syntax-color-property:   @syntax-text-color;
+@syntax-color-value:      @syntax-text-color;
+@syntax-color-function:   @syntax-text-color;
+@syntax-color-method:     @syntax-text-color;
+@syntax-color-class:      @syntax-text-color;
+@syntax-color-keyword:    @syntax-text-color;
+@syntax-color-tag:        @syntax-text-color;
+@syntax-color-attribute:  @syntax-text-color;
+@syntax-color-import:     @syntax-text-color;
+@syntax-color-snippet:    @syntax-text-color;
+@syntax-color-string:     lighten(@syntax-text-color, 20%);
+@syntax-color-comment:    lighten(@syntax-text-color, 40%);
+@syntax-color-none:    @syntax-text-color;
 
 
 // Custom Syntax Variables -----------------------------------
