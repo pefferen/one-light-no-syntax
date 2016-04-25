@@ -1,13 +1,15 @@
 {
-  "name": "one-light-syntax",
+  "name": "one-light-no-syntax",
   "theme": "syntax",
-  "version": "1.2.0",
-  "description": "Atom One light syntax theme",
+  "version": "1.0",
+  "description": "Atom One light no-syntax theme",
   "keywords": [
     "light",
-    "syntax"
+    "syntax",
+    "no-syntax",
+    "distraction free"
   ],
-  "repository": "https://github.com/atom/one-light-syntax",
+  "repository": "https://github.com/pefferen/one-light-no-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.40.0"
